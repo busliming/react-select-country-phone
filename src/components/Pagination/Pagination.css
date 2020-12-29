@@ -1,0 +1,35 @@
+.pagination{
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.list-page{
+  width: 30px;
+  height: 30px;
+  color: hotpink;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20);
+}
+
+.list-page-space{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: hotpink;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* box-shadow: 0 1px 2px 0 rgba(0,0,0,0.20); */
+}
+
+.active{
+  color: white;
+  background-color: hotpink;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.40);
+}
